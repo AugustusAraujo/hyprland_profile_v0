@@ -10,6 +10,7 @@ Todo:
 - [] remove that shit omarchy enormous logo
 - [] config boot loader and add windows
 - [] customize the file manager
+- [] default workspace for spotify
 - Change keybindings
     - [] whatsapp
     - [] discord
