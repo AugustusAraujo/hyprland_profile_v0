@@ -19,6 +19,7 @@ Todo:
 - [] make binding pause work
 - [] add x icon to notification or a timeout
 - [] customize walker
+- [] copy history
 - Change keybindings
     - [] whatsapp
     - [] discord
