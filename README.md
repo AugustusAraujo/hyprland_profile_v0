@@ -1,8 +1,11 @@
 Todo:
+- [] this repo root needs to be ~/config/
 - [] Move all default omarchy config to this repo
 - [] use zsh or see other alternatives
+- [] config ghostty
+- [] config nemo
 - [] auto center and resize on toggle float
-- [] Write a setup script to use this as slink
+- [] Write a setup script to install everything and override some files
 - [] Find a emoji popover like Windows' (smile?, efck?)
 - [] Change window border
 - [] config plymouth
@@ -12,9 +15,15 @@ Todo:
 - [] customize the file manager
 - [] default workspace for spotify
 - [] remove control + ; behavior
+- [] binding to launch web bitwarden
+- [] make binding pause work
+- [] add x icon to notification or a timeout
+- [] customize walker
 - Change keybindings
     - [] whatsapp
     - [] discord
     - [] code
     - [] spotify
     - [] files (nemo)
+  - [] config swayosd https://github.com/ErikReider/SwayOSD
+  - 
