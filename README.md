@@ -1,0 +1,18 @@
+Todo:
+- [] Move all default omarchy config to this repo
+- [] use zsh or see other alternatives
+- [] auto center and resize on toggle float
+- [] Write a setup script to use this as slink
+- [] Find a emoji popover like Windows' (smile?, efck?)
+- [] Change window border
+- [] config plymouth
+- [] customize lockscreen
+- [] remove that shit omarchy enormous logo
+- [] config boot loader and add windows
+- [] customize the file manager
+- Change keybindings
+    - [] whatsapp
+    - [] discord
+    - [] code
+    - [] spotify
+    - [] files (nemo)
