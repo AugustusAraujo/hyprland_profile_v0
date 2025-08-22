@@ -7,7 +7,7 @@ Todo:
 - [] auto center and resize on toggle float
 - [] Write a setup script to install everything and override some files
 - [] Find a emoji popover like Windows' (smile?, efck?)
-- [] Change window border
+- [X] Change window border
 - [] config plymouth
 - [] customize lockscreen
 - [] remove that shit omarchy enormous logo
@@ -16,15 +16,15 @@ Todo:
 - [] default workspace for spotify
 - [] remove control + ; behavior
 - [] binding to launch web bitwarden
-- [] make binding pause work
+- [] make binding pause workww
 - [] add x icon to notification or a timeout
 - [] customize walker
 - [] copy history
 - Change keybindings
     - [] whatsapp
     - [] discord
-    - [] code
-    - [] spotify
-    - [] files (nemo)
+    - [X] code
+    - [X] spotify
+    - [X] files (nemo)
   - [] config swayosd https://github.com/ErikReider/SwayOSD
   - 
