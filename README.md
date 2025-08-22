@@ -11,6 +11,7 @@ Todo:
 - [] config boot loader and add windows
 - [] customize the file manager
 - [] default workspace for spotify
+- [] remove control + ; behavior
 - Change keybindings
     - [] whatsapp
     - [] discord
