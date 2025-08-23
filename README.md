@@ -4,7 +4,7 @@ Todo:
 - [] use zsh or see other alternatives
 - [] config ghostty
 - [] config nemo
-- [] auto center and resize on toggle float
+- [X] auto center and resize on toggle float
 - [] Write a setup script to install everything and override some files
 - [] Find a emoji popover like Windows' (smile?, efck?)
 - [X] Change window border
@@ -20,6 +20,8 @@ Todo:
 - [] add x icon to notification or a timeout
 - [] customize walker
 - [] copy history
+- [] make discord floating
+- [] turn off lights. run on launch
 - Change keybindings
     - [] whatsapp
     - [] discord

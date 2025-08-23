@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+
 k=$(headsetcontrol --output json)
 level=$(echo "$k" | jq '.devices[0].battery.level')
 status=$(echo "$k" | jq -r '.devices[0].battery.status')
