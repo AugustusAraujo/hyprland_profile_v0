@@ -21,7 +21,7 @@ Todo:
 - [] make binding pause workww
 - [] add x icon to notification or a timeout
 - [] customize walker
-- [] copy history
+- [X] copy history
 - [] make discord floating
 - [] turn off lights. run on launch
 - Change keybindings
