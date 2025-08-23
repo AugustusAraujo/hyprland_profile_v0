@@ -8,3 +8,9 @@ libappindicator-gtk3
 wofi
 hyprlock
 hyprsunset
+
+#neofetch-like apps
+https://github.com/ssleert/nitch
+
+
+ghostty config
