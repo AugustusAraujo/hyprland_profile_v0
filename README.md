@@ -1,3 +1,5 @@
+![](./satty-20250823-09:40:43.png)
+
 Todo:
 - [] this repo root needs to be ~/config/
 - [] Move all default omarchy config to this repo
