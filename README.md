@@ -23,12 +23,12 @@ Todo:
 - [] customize walker
 - [X] copy history
 - [] make discord floating
-- [] turn off lights. run on launch
+- [] turn off headset lights. run on launch
 - Change keybindings
     - [] whatsapp
     - [] discord
     - [X] code
     - [X] spotify
     - [X] files (nemo)
-  - [] config swayosd https://github.com/ErikReider/SwayOSD
+  - [X] config swayosd https://github.com/ErikReider/SwayOSD
   - 
