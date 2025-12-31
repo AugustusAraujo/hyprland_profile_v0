@@ -9,8 +9,12 @@ wofi
 hyprlock
 hyprsunset
 
-#neofetch-like apps
+# neofetch-like apps
 https://github.com/ssleert/nitch
 
 
 ghostty config
+yazi
+
+# bash
+https://github.com/babarot/enhancd
