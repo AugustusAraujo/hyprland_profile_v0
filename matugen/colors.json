@@ -25,6 +25,7 @@
             "default": "#006878",
             "light": "#84d2e5"
         },
+        
         "inverse_surface": {
             "dark": "#dee3e5",
             "default": "#dee3e5",
@@ -294,6 +295,21 @@
             "default": "#cc241d",
             "light": "#e05c57",
             "dark": "#8f1914"
+        },
+        "pink": {
+            "default": "#d56199",
+            "light": "#d56199",
+            "dark": "#d56199"
+        },
+        "teal": {
+            "default": "#2190a4",
+            "light": "#2190a4",
+            "dark": "#2190a4"
+        },
+        "slate": {
+            "default": "#6f8396",
+            "light": "#6f8396",
+            "dark": "#6f8396"
         },
         "yellow": {
             "default": "#d79921",
