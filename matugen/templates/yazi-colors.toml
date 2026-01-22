@@ -1,0 +1,165 @@
+# : Manager [[[
+
+[manager]
+cwd = { fg = "{{colors.on_surface.default}}" }
+
+# Tab
+tab_active = { fg = "{{colors.on_primary.default}}", bg = "{{colors.primary.default}}", bold = true }
+tab_inactive = { fg = "{{colors.primary_fixed.default}}", bg = "{{colors.on_primary_fixed.default}}" }
+tab_width = 1
+
+# Find
+find_keyword = { fg = "{{colors.error.default}}", bold = true, italic = true, underline = true }
+find_position = { fg = "{{colors.error.default}}", bold = true, italic = true }
+
+# Marker
+marker_copied = { fg = "{{colors.tertiary_fixed.default }}", bg = "{{colors.tertiary_fixed.default }}" }
+marker_cut = { fg = "{{colors.tertiary_fixed.default}}", bg = "{{colors.tertiary_fixed.default}}" }
+marker_marked = { fg = "{{colors.error.default}}", bg = "{{colors.error.default}}" }
+marker_selected = { fg = "{{colors.tertiary.default}}", bg = "{{colors.tertiary.default}}" }
+
+# Count
+count_copied = { fg = "{{colors.on_tertiary_fixed.default}}", bg = "{{colors.tertiary_fixed.default}}" }
+count_cut = { fg = "{{colors.on_tertiary_fixed.default}}", bg = "{{colors.tertiary_fixed.default}}" }
+count_selected = { fg = "{{colors.on_primary.default}}", bg = "{{colors.tertiary.default}}" }
+
+# Border
+border_symbol = "│"
+border_style = { fg = "{{colors.surface_tint.default}}" }
+
+# : ]]]
+
+
+# : Status [[[
+
+[status]
+separator_open = "🭁"
+separator_close = "🭠"
+separator_style = { bg = "{{colors.on_primary.default}}", fg = "#F4A261" }
+
+[mode]
+# Mode
+normal_main = { bg = "{{colors.primary.default}}", fg = "{{colors.on_primary.default}}", bold = true }
+normal_alt = { bg = "{{colors.surface_variant.default}}", fg = "{{colors.on_surface_variant.default}}" }
+
+# Select mode
+select_main = { bg = "{{colors.secondary.default}}", fg = "{{colors.on_secondary.default}}", bold = true }
+select_alt = { bg = "{{colors.surface_variant.default}}", fg = "{{colors.on_surface_variant.default}}" }
+
+# Unset mode
+unset_main = { bg = "{{colors.tertiary.default}}", fg = "{{colors.on_tertiary.default}}", bold = true }
+unset_alt = { bg = "{{colors.surface_variant.default}}", fg = "{{colors.on_surface_variant.default}}" }
+
+# Progress
+progress_label = { bold = true }
+progress_normal = { fg = "{{colors.primary.default}}", bg = "{{colors.surface_bright.default}}" }
+progress_error = { fg = "{{colors.error.default}}", bg = "{{colors.surface_bright.default}}" }
+
+# Permissions
+permissions_t = { fg = "{{colors.secondary.default }}" }
+permissions_w = { fg = "{{colors.tertiary.default }}" }
+permissions_x = { fg = "{{colors.error.default }}" }
+permissions_r = { fg = "{{colors.tertiary_fixed.default }}" }
+permissions_s = { fg = "{{colors.primary_fixed.default }}" }
+
+# : ]]]
+
+
+# : Select [[[
+
+[select]
+border = { fg = "{{colors.primary.default}}" }
+active = { fg = "{{colors.tertiary.default}}", bold = true }
+inactive = {}
+
+# : ]]]
+
+
+# : Input [[[
+
+[input]
+border = { fg = "{{colors.primary.default}}" }
+value = { fg = "{{colors.on_surface.default}}" }
+
+# : ]]]
+
+
+# : Completion [[[
+
+[completion]
+border = { fg = "{{colors.primary.default}}", bg = "{{colors.on_primary.default}}" }
+
+# : ]]]
+
+
+# : Tasks [[[
+
+[tasks]
+border = { fg = "{{colors.primary.default}}" }
+title = {}
+hovered = { fg = "{{colors.tertiary_fixed.default}}", underline = true }
+
+# : ]]]
+
+
+# : Which [[[
+
+[which]
+cols = 3
+mask = { bg = "{{colors.surface_bright.default}}" }
+cand = { fg = "{{colors.primary.default}}" }
+rest = { fg = "{{colors.on_primary.default}}" }
+desc = { fg = "{{colors.on_surface.default}}" }
+separator = " ▶ "
+separator_style = { fg = "{{colors.on_surface.default}}" }
+
+# : ]]]
+
+
+# : Help [[[
+
+[help]
+on = { fg = "{{colors.on_surface.default}}" }
+run = { fg = "{{colors.on_surface.default}}" }
+footer = { fg = "{{colors.on_secondary.default}}", bg = "{{colors.secondary.default}}" }
+
+# : ]]]
+
+
+# : Notify [[[
+
+[notify]
+title_info = { fg = "{{colors.tertiary.default}}" }
+title_warn = { fg = "{{colors.primary.default}}" }
+title_error = { fg = "{{colors.error.default}}" }
+
+# : ]]]
+
+
+# : File-specific styles [[[
+
+[filetype]
+
+rules = [
+    # Images
+    { mime = "image/*", fg = "#94e2d5" },
+
+    # Media
+    { mime = "{audio,video}/*", fg = "#f9e2af" },
+
+    # Archives
+    { mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "#f5c2e7" },
+
+    # Documents
+    { mime = "application/{pdf,doc,rtf}", fg = "#a6e3a1" },
+
+    # Special files
+    { name = "*", is = "orphan", bg = "{{colors.error_container.default}}" },
+    { name = "*", is = "exec", fg = "{{colors.on_error_container.default}}" },
+
+    # Fallback
+    { name = "*", fg = "{{colors.on_surface.default}}" },
+    { name = "*/", fg = "{{colors.surface_tint.default}}" },
+]
+
+# : ]]]

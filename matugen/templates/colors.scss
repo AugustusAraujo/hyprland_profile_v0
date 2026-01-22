@@ -1,0 +1,7 @@
+<* for name, value in colors *>
+${{name}}: {{value.default.hex}};
+<* endfor *>
+
+<* for name, value in palettes *>
+${{name}}: {{value._50.hex}};
+<* endfor *>

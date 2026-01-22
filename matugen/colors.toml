@@ -1,0 +1,268 @@
+image = null
+is_dark_mode = true
+mode = "dark"
+
+[colors.background]
+dark = "#3c3836"
+default = "#3c3836"
+light = "#f5fafc"
+
+[colors.error]
+default = "#cc241d"
+light = "#e05c57"
+dark = "#8f1914"
+
+[colors.error_container]
+dark = "#93000a"
+default = "#93000a"
+light = "#ffdad6"
+
+[colors.inverse_on_surface]
+dark = "#2b3133"
+default = "#2b3133"
+light = "#ecf2f3"
+
+[colors.inverse_primary]
+dark = "#006878"
+default = "#006878"
+light = "#84d2e5"
+
+[colors.inverse_surface]
+dark = "#dee3e5"
+default = "#dee3e5"
+light = "#2b3133"
+
+[colors.on_background]
+dark = "#dee3e5"
+default = "#dee3e5"
+light = "#171d1e"
+
+[colors.on_error]
+dark = "#690005"
+default = "#690005"
+light = "#ffffff"
+
+[colors.on_error_container]
+dark = "#ffdad6"
+default = "#ffdad6"
+light = "#410002"
+
+[colors.on_primary]
+dark = "#00363f"
+default = "#00363f"
+light = "#ffffff"
+
+[colors.on_primary_container]
+dark = "#a7edff"
+default = "#a7edff"
+light = "#001f25"
+
+[colors.on_primary_fixed]
+dark = "#001f25"
+default = "#001f25"
+light = "#001f25"
+
+[colors.on_primary_fixed_variant]
+dark = "#004e5b"
+default = "#004e5b"
+light = "#004e5b"
+
+[colors.on_secondary]
+dark = "#1c3439"
+default = "#1c3439"
+light = "#ffffff"
+
+[colors.on_secondary_container]
+dark = "#cde7ee"
+default = "#cde7ee"
+light = "#051f24"
+
+[colors.on_secondary_fixed]
+dark = "#051f24"
+default = "#051f24"
+light = "#051f24"
+
+[colors.on_secondary_fixed_variant]
+dark = "#334a50"
+default = "#334a50"
+light = "#334a50"
+
+[colors.on_surface]
+dark = "#dee3e5"
+default = "#dee3e5"
+light = "#171d1e"
+
+[colors.on_surface_variant]
+dark = "#bfc8cb"
+default = "#bfc8cb"
+light = "#3f484b"
+
+[colors.on_tertiary]
+dark = "#272f4d"
+default = "#272f4d"
+light = "#ffffff"
+
+[colors.on_tertiary_container]
+dark = "#babbf1"
+default = "#babbf1"
+light = "#121a37"
+
+[colors.on_tertiary_fixed]
+dark = "#121a37"
+default = "#121a37"
+light = "#121a37"
+
+[colors.on_tertiary_fixed_variant]
+dark = "#3e4565"
+default = "#3e4565"
+light = "#3e4565"
+
+[colors.outline]
+dark = "#899295"
+default = "#899295"
+light = "#6f797b"
+
+[colors.outline_variant]
+dark = "#3f484b"
+default = "#3f484b"
+light = "#bfc8cb"
+
+[colors.primary]
+dark = "#84d2e5"
+default = "#84d2e5"
+light = "#006878"
+
+[colors.primary_container]
+dark = "#004e5b"
+default = "#004e5b"
+light = "#a7edff"
+
+[colors.primary_fixed]
+dark = "#a7edff"
+default = "#a7edff"
+light = "#a7edff"
+
+[colors.primary_fixed_dim]
+dark = "#84d2e5"
+default = "#84d2e5"
+light = "#84d2e5"
+
+[colors.scrim]
+dark = "#000000"
+default = "#000000"
+light = "#000000"
+
+[colors.secondary]
+dark = "#b2cbd2"
+default = "#b2cbd2"
+light = "#4b6268"
+
+[colors.secondary_container]
+dark = "#334a50"
+default = "#334a50"
+light = "#cde7ee"
+
+[colors.secondary_fixed]
+dark = "#cde7ee"
+default = "#cde7ee"
+light = "#cde7ee"
+
+[colors.secondary_fixed_dim]
+dark = "#b2cbd2"
+default = "#b2cbd2"
+light = "#b2cbd2"
+
+[colors.shadow]
+dark = "#1a1a1aee"
+default = "#1a1a1aee"
+light = "#1a1a1aee"
+
+[colors.source_color]
+dark = "#bbf1ff"
+default = "#bbf1ff"
+light = "#bbf1ff"
+
+[colors.surface]
+dark = "#0f1416"
+default = "#0f1416"
+light = "#f5fafc"
+
+[colors.surface_bright]
+dark = "#343a3c"
+default = "#343a3c"
+light = "#f5fafc"
+
+[colors.surface_container]
+dark = "#1b2122"
+default = "#1b2122"
+light = "#e9eff1"
+
+[colors.surface_container_high]
+dark = "#252b2d"
+default = "#252b2d"
+light = "#e4e9eb"
+
+[colors.surface_container_highest]
+dark = "#303637"
+default = "#303637"
+light = "#dee3e5"
+
+[colors.surface_container_low]
+dark = "#171d1e"
+default = "#171d1e"
+light = "#eff4f6"
+
+[colors.surface_container_lowest]
+dark = "#090f11"
+default = "#090f11"
+light = "#ffffff"
+
+[colors.surface_dim]
+dark = "#0f1416"
+default = "#0f1416"
+light = "#d5dbdd"
+
+[colors.surface_tint]
+dark = "#84d2e5"
+default = "#84d2e5"
+light = "#006878"
+
+[colors.surface_variant]
+dark = "#3f484b"
+default = "#3f484b"
+light = "#dbe4e7"
+
+[colors.tertiary]
+dark = "#bdc5eb"
+default = "#bdc5eb"
+light = "#555d7e"
+
+[colors.tertiary_container]
+dark = "#3e4565"
+default = "#3e4565"
+light = "#dce1ff"
+
+[colors.tertiary_fixed]
+dark = "#dce1ff"
+default = "#dce1ff"
+light = "#dce1ff"
+
+[colors.tertiary_fixed_dim]
+dark = "#bdc5eb"
+default = "#bdc5eb"
+light = "#bdc5eb"
+
+[colors.inactive_border]
+dark = "#ff7C7C7C"
+default = "#ff7C7C7C"
+light = "#ff7C7C7C"
+
+[colors.active_border]
+dark = "#ffb0b0b0"
+default = "#ffb0b0b0"
+light = "#ffb0b0b0"
+
+[colors.hyprtrails]
+dark = "#7c7c7c55"
+default = "#7c7c7c55"
+light = "#7c7c7c55"
